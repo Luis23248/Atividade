@@ -1,6 +1,6 @@
 from models.enums.Genero import Genero
 from models.enums.Setor import Setor
-from models.enums.Unidade_Federativa import UF
+from models.Endereco import Endereco
 
 
 

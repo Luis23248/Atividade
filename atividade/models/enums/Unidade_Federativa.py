@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class UF(Enum):
+class Unidade_Federativa(Enum):
 
 
     BAHIA = "Bahia", "BA"
