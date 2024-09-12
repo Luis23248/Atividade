@@ -12,3 +12,12 @@ class Endereco:
         self.cep = cep
         self.cidade = cidade
         self.uf = uf
+
+
+    def __str__(self) -> str:
+        return (f"{self.logradouro}"
+                f"{self.numero}"
+                f"{self.complemento}"
+                f"{self.cep}"
+                f"{self.cidade}"
+                f"{self.uf.value}")    
